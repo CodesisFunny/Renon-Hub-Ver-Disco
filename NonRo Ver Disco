@@ -3,7 +3,7 @@ local DiscordLib =
 
 local win = DiscordLib:Window("NonRo Hub Discord")
 
-local serv = win:Server("Main Script", "http://www.roblox.com/asset/?id=6031075938")
+local serv = win:Server("Main Script", "http://www.roblox.com/asset/?id=11803337119")
 
 local main = serv:Channel("Load Main Script")
 

@@ -1,0 +1,65 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("NonRo Hub Discord")
+
+local serv = win:Server("Main Script", "http://www.roblox.com/asset/?id=6031075938")
+
+local main = serv:Channel("Load Main Script")
+
+main:Label("â¬‡Best admin scriptâ¬‡")
+
+main:Button(
+    "Load Script Infinite Yield",
+    function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        DiscordLib:Notification("Notification", "Load Script Infinite Yield Successfully!", "Okay!")
+    end
+)
+
+main:Seperator()
+
+main:Label("â¬‡Soon!â¬‡")
+
+local serv = win:Server("Game Script", "")
+
+local nrh = serv:Channel("Load S Blox Fruit")
+
+nrh:Label("â¬‡Best script Blox Fruitâ¬‡")
+
+nrh:Button(
+    "Load Script Thunder Z",
+    function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+        DiscordLib:Notification("Notification", "Load Script Thunder Z Successfully!", "Okay!")
+    end
+)
+
+nrh:Seperator()
+
+nrh:Label("â¬‡Very fast attack and no Key!â¬‡")
+
+nrh:Button(
+    "Load Script One X Hub",
+    function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+        DiscordLib:Notification("Notification", "Load Script One X Hub Successfully!", "Okay!")
+    end
+)
+
+nrh:Seperator()
+
+nrh:Label("â¬‡Soon!â¬‡")
+
+local nrh = serv:Channel("L S Brookhaven ðŸ¡RP")
+
+nrh:Label("â¬‡Best script Brookhaven ðŸ¡RPâ¬‡")
+
+nrh:Button(
+    "Load Script Ice Hub",
+    function()
+        DiscordLib:Notification("Notification", "Load Script Ice Hub Successfully!", "Okay!")
+    end
+)
+
+nrh:Seperator()

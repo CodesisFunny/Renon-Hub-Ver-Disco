@@ -65,5 +65,5 @@ nrh:Button(
 nrh:Seperator()
 
 
-wait(3)
+wait(1)
 game.StarterGui:SetCore("SendNotification", {Title = "NonRo Hub", Text = "NonRo Hub loaded successfully!", Icon = "rbxassetid://11803337119", Duration = 5, Button1 = "Okay!"})
